@@ -1,25 +1,14 @@
-# ReduxSimpleStarter
+# My Redux Ex
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
-
-### Getting Started
-
-There are two methods for getting started with this repo.
-
-#### Familiar with Git?
-Checkout this repo, install dependencies, then start the gulp process with the following:
-
-```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
-> npm install
-> npm start
-```
-
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
+## how start?
 ```
 > npm install
 > npm start
 ```
+# Reducer?
+어플리케이션 스테이트를 반환하는 함수.
+리듀서는 스테이트의 값을 만든다.
+
+# Container
+리덕스에 의해 만들어지는 스테이트를 직접 접근하는 컴포넌트
+리액트와 리덕스는 독립된 라이브러리이며 두개를 연결하려면 리액트-리덕스 필요
